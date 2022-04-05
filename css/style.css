@@ -1,0 +1,48 @@
+body 
+{
+    font-family: 'Open Sans', Tahoma, sans-serif;
+}
+h1 
+{
+    color: lightblue;
+    margin-left: 20px;
+}
+
+/*
+    универсальный селектор, должен работать, но не работает!!!
+    -> не отображается в превьюшке
+*/
+
+*{
+    color: seagreen;
+}
+
+p
+{
+    color: greenyellow;
+}
+
+#id_example, #id_example2{
+    color: brown;
+}
+
+/*Mark certain attribute, or all attributes*/
+[href="mailto:info@devstudio.com"]{
+    color:blueviolet;
+}
+
+.section_two_class
+{
+    background-color: rgba(85, 134, 166, 0.2);
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* This class is more specifik*/
+.header-link.link{
+    color: blue;
+}
+
+.
